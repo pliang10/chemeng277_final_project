@@ -3,7 +3,7 @@
 
 This project uses a PyTorch-based Neural Network to model the mechanical properties of composite materials as a function of its composite makeup and manufacturing parameters.  This model specifically predicts tensile strength and modulus across three temperatures, -65F, 75F, and 250F. In addition, plots for the sensitivity of these six properties are given in relation to two manufacturing parameters, cure temperature and void %. This information can help inform the manufacturing design space during early stages of composite part development.
 
-### 1. Requirements:
+### 1. Requirements
 
 Ensure you have the following Python libraries installed:
 
@@ -69,4 +69,6 @@ The file 'chemeng277_final_proj.py' also provides information on how max cure te
 This can be recreated by running Lines 263-334 of 'chemeng277_final_proj.py' which will generate trend plots visualizing the sensitivity of strength/modulus to processing changes.
 
 ### Example Plot:
-
+<p align="center">
+  <img src="Cure Temp-Strength 75F.png" width="600">
+</p>
