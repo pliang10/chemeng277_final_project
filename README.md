@@ -33,6 +33,7 @@ The file 'chemeng277_final_proj.py' trains and creates function predict_comp() w
 * 'Void Content Max%':
 
 The text inputs must match at least one of the entries in the Compiled Data.xlsx file for 'Composition', 'Type', 'Direction', 'Fiber', 'Matrix', and 'Processing'.
+
 The numerical inputs for 'Resin Content', 'Max Cure Temp F', 'Ply Thickness', and 'Void Content Max%' can be any numerical value.
 
 ### Example:
@@ -58,11 +59,11 @@ prediction = predict_comp(material_prop)
 
 The file 'chemeng277_final_proj.py' also provides information on how max cure temperature and void % will affect the tensile strength and modulus.
 
-* Void Percentage Sensitivity (0-10%)
+### Void Percentage Sensitivity (0-10%)
 - The model simulates a sweep of void percentages to predict tthe effect on tensile properties
 - Baseline: Fixed 350F cure temperature
 
-* Cure Temperature Sensitivity (200-450F)
+### Cure Temperature Sensitivity (200-450F)
 - The model simulates a sweep of max cure temperatures to predict tthe effect on tensile properties
 - Baseline: Fixed 0.05% void content
 
