@@ -19,7 +19,7 @@ This file contains data compiled from the Composite Materials Handbook-17 (CMH-1
 
 ### 3. Predicting Properties of Specific Composite Material Matrix
 
-The file 'chemeng277_final_proj.py' trains and creates function predict_comp() which will predict tensile strength and modulus across three temperatures if provided the following inputs:
+The file 'main.py' trains and creates function predict_comp() which will predict tensile strength and modulus across three temperatures if provided the following inputs:
 
 * 'Composition':
 * 'Type':
@@ -57,7 +57,7 @@ prediction = predict_comp(material_prop)
 
 ### 4. Sensitivity of Mechanical Properties to Cure and Void %
 
-The file 'chemeng277_final_proj.py' also provides information on how max cure temperature and void % will affect the tensile strength and modulus.
+The file 'main.py' also provides information on how max cure temperature and void % will affect the tensile strength and modulus.
 
 ### Void Percentage Sensitivity (0-10%)
 - The model simulates a sweep of void percentages to predict tthe effect on tensile properties
@@ -67,7 +67,7 @@ The file 'chemeng277_final_proj.py' also provides information on how max cure te
 - The model simulates a sweep of max cure temperatures to predict tthe effect on tensile properties
 - Baseline: Fixed 0.05% void content
 
-This can be recreated by running Lines 263-334 of 'chemeng277_final_proj.py' which will generate trend plots visualizing the sensitivity of strength/modulus to processing changes.
+This can be recreated by running Lines 286-366 of 'main.py' which will generate trend plots visualizing the sensitivity of strength/modulus to processing changes.
 
 ### Example Plot:
 <p align="center">
